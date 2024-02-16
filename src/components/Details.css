@@ -1,0 +1,17 @@
+
+.details-container {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px 0;
+}
+
+.details {
+  margin: 10px;
+}
+
+.detail-header {
+  font-size: 20px
+} 

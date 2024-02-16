@@ -1,0 +1,40 @@
+
+
+.list-container {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+
+  /* background-color: #d42121; */
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style-type: none;
+  border: 2px solid black;
+}
+
+.user {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  user-select: none;
+}
+
+.user:last-child {
+  border-bottom: none;
+}
+
+.selected {
+  color: white;
+  background-color: #4479d4;
+}
+
